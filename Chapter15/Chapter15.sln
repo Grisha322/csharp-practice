@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMultiThreadApp", "SimpleMultiThreadApp\SimpleMultiThreadApp.csproj", "{9B57A49E-FB52-4807-8FDB-B78CF671DA7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithTimers", "WorkingWithTimers\WorkingWithTimers.csproj", "{E9519409-E018-4931-9FC2-C112A65A0556}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithThreadPool", "WorkingWithThreadPool\WorkingWithThreadPool.csproj", "{5424D0D4-B85F-44B5-AB27-D3FDFEB5475E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataParallelismWithForEach", "DataParallelismWithForEach\DataParallelismWithForEach.csproj", "{A3ABF675-F3E8-48BC-A601-0D7C28C9F4AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEBookReader", "MyEBookReader\MyEBookReader.csproj", "{CAC2DD39-A7DA-43E9-A1E1-06F055FAB1B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLINQ", "PLINQ\PLINQ.csproj", "{8D1ACA03-2521-4CE3-8DCD-37F2FC74133F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitExamples", "AsyncAwaitExamples\AsyncAwaitExamples.csproj", "{81988FFF-2FCB-4EA3-9A05-58208E4EDC6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B57A49E-FB52-4807-8FDB-B78CF671DA7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B57A49E-FB52-4807-8FDB-B78CF671DA7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B57A49E-FB52-4807-8FDB-B78CF671DA7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B57A49E-FB52-4807-8FDB-B78CF671DA7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9519409-E018-4931-9FC2-C112A65A0556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9519409-E018-4931-9FC2-C112A65A0556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9519409-E018-4931-9FC2-C112A65A0556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9519409-E018-4931-9FC2-C112A65A0556}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5424D0D4-B85F-44B5-AB27-D3FDFEB5475E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5424D0D4-B85F-44B5-AB27-D3FDFEB5475E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5424D0D4-B85F-44B5-AB27-D3FDFEB5475E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5424D0D4-B85F-44B5-AB27-D3FDFEB5475E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3ABF675-F3E8-48BC-A601-0D7C28C9F4AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3ABF675-F3E8-48BC-A601-0D7C28C9F4AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3ABF675-F3E8-48BC-A601-0D7C28C9F4AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3ABF675-F3E8-48BC-A601-0D7C28C9F4AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAC2DD39-A7DA-43E9-A1E1-06F055FAB1B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAC2DD39-A7DA-43E9-A1E1-06F055FAB1B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAC2DD39-A7DA-43E9-A1E1-06F055FAB1B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAC2DD39-A7DA-43E9-A1E1-06F055FAB1B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D1ACA03-2521-4CE3-8DCD-37F2FC74133F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1ACA03-2521-4CE3-8DCD-37F2FC74133F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1ACA03-2521-4CE3-8DCD-37F2FC74133F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1ACA03-2521-4CE3-8DCD-37F2FC74133F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81988FFF-2FCB-4EA3-9A05-58208E4EDC6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81988FFF-2FCB-4EA3-9A05-58208E4EDC6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81988FFF-2FCB-4EA3-9A05-58208E4EDC6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81988FFF-2FCB-4EA3-9A05-58208E4EDC6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
